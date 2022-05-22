@@ -1,0 +1,224 @@
+*{
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+.section-index{
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Informacion{
+  width: 90%;
+  height: 100%;
+margin: auto;
+margin-top: 12%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+ align-items: center;
+}
+.Introduccion{
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+.Titulo_texto_introduccion{
+width: 100%;
+height: auto;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+}
+.Titulo_texto_introduccion h1{
+  font-family: 'Prata', serif;
+    font-size: 34px;
+    color: #363033;
+    text-align: left;
+
+}
+.Titulo_texto_introduccion p{
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 20px;
+  width: 80%;
+}
+.Imagen_introduccion{
+  width: 800px;
+  height: 414px;
+  margin-top: 30px;
+  box-shadow: 1px 1px 5px 1px rgba(205,53,52, 0.2);
+}
+.Imagen_introduccion img{
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 5px 1px rgba(205,53,52, 0.2);
+}
+
+.Conceptos{
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_conceptos{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_conceptos h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_conceptos li{
+  text-decoration: none;
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+.Lenguajes{
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_lenguajes{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_lenguajes h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_lenguajes li{
+  text-decoration: none;
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+.Imagen_gestor{
+  width: 584px;
+  height: 291px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(205,53,52, 0.2);
+}
+.Imagen_gestor img{
+width: 100%;
+height: 100%;
+}
+.Diagrama{
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_diagrama{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_diagrama h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_diagrama p{
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+  width: 80%;
+}
+.Imagen_diagrama{
+  width: 620px;
+  height: 380px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px 1px rgba(205,53,52, 0.2);
+}
+.Imagen_diagrama img{
+  width: 100%;
+  height: 100%;
+}
+.Normalizacion{
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_normalizacion{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_normalizacion h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_normalizacion h3{
+  font-family: 'Prata', serif;
+    font-size: 23px;
+    color: #363033;
+    text-align: left;
+      margin-top: 20px;
+}
+.Titulo_texto_normalizacion p{
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+  width: 80%;
+}
+.Titulo_texto_normalizacion h4{
+  font-family: 'Prata', serif;
+    font-size: 22px;
+    color: #363033;
+    text-align: left;
+    margin-top: 10px;
+}
+.Titulo_texto_normalizacion li{
+  text-decoration: none;
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+iframe{
+  margin-top: 20px;
+  padding-bottom: 20px;
+}

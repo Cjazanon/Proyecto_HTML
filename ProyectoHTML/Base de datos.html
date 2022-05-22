@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<!-- links -->
+<link rel="stylesheet" href="css/Base de datos/index.css">
+  <link rel="stylesheet" href="css/Base de datos/header.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initical-sclae=1.0">
+  <head>
+    <meta charset="utf-8">
+    <title>ProyectoHTML</title>
+  </head>
+  <header class="Header">
+
+<div class="caja_icono"><a href="index.html"><img class="logo" src="imagen/uni.png"></a></div>
+
+  <div class="Caja_botones">
+  <nav class="Nav">
+
+    <ul class="ulNav">
+          <li><a class="boton1" href="index.html">INICIO</a></li>
+          <li><a class="boton2" href="Arquitectura del computador.html">ARQUITECTURA DEL COMPUTADOR</a></li>
+          <li><a class="boton3" href="Sistemas operativos.html">SISTEMAS OPERATIVOS</a></li>
+          <li><a class="boton4" href="Base de datos.html">BASE DE DATOS</a></li>
+          <li><a class="boton5" href="Redes de computadoras.html">REDES DE COMPUTADORAS</a></li>
+
+          </ul>
+  </nav>
+  </div>
+  </header>
+    <body>
+  <section class="section-index" style="background-image: url('imagen/body2.jpg')">
+<article class="Informacion">
+  <div class="Introduccion">
+<div class="Titulo_texto_introduccion">
+<h1>Base de datos</h1>
+<p>Es un conjunto de datos o colección de información que pertenece a un mismo asunto, tema o actividad específicos.</p>
+</div>
+<div class="Imagen_introduccion">
+<img src="imagen/Base de datos/basededatos.jpg" >
+</div>
+  </div>
+
+<div class="Conceptos">
+<div class="Titulo_texto_conceptos">
+  <h2>Conceptos</h2>
+  <li><b>Tabla:</b> Es el lugar donde se guardan o almacenan datos </li>
+  <li><b>Fila:</b> Registro o tupla, es un conjunto de campos o columnas que contienen los datos que pertenecen a una misma tabla (entidad) </li>
+  <li><b>Llave Primaria (PK):</b> Es aquella columna o columnas que se consideran clave para identificar como única una fila</li>
+  <li><b>Llave Foránea (FK):</b> Indica cómo están relacionadas 2 tablas; es una o más columnas de una tabla denominada hija, que hacen referencia a la llave primaria de otra tabla denominada padre.</li>
+  <li><b>Relación:</b> Es la asociación entre los datos  guardados en diferentes tablas; las FK establecen esa relación</li>
+  <li><b>DBMS:</b> Sistema Gestor de Base de Datos (DataBase Management System), conjunto de programas que controla y maneja todo acceso a la BD, facilitando la manipulación de datos y sirve de interfaz entre ésta y el usuario o las distintas aplicaciones utilizadas</li>
+</div>
+</div>
+
+<div class="Lenguajes">
+<div class="Titulo_texto_lenguajes">
+  <h2>Lenguajes utilizados en DBMS:</h2>
+  <li><b>DML</b>  (data manupulation language): Es el lenguaje de consultas y manipulación de datos, está formado por SIUD</li>
+  <li><b>DDL</b> (data definition language): El lenguaje de definición de datos, utilizado para definir estructuras como tablas, procedimientos y funciones, por ejemplo: CREATE,  ALTER, DROP, TRUNCATE</li>
+  <li><b>DCL</b> (data control language): Lenguaje de control de datos, permite al administrador controlar el acceso a los datos, ejemplo: GRANT y REVOKE</li>
+  <li><b>SQL</b> (structured query language): Lenguaje de consulta estructurado, añadiéndole a este otra serie de subcomandos, como creación de Vistas (views), subconsultas, etc.</li>
+</div>
+<div class="Imagen_gestor">
+  <img src="imagen/Base de datos/gestordebasededatos.png">
+</div>
+</div>
+
+<div class="Diagrama">
+  <div class="Titulo_texto_diagrama">
+    <h2>Diagrama Entidad-Relacion (ER)</h2>
+    <p>Es una herramienta  que permite representar graficamente las entidades (tablas), así como sus relaciones y propiedades.</p>
+<div class="Imagen_diagrama">
+  <img src="imagen/Base de datos/diagrama.png">
+</div>
+  </div>
+</div>
+
+<div class="Normalizacion">
+<div class="Titulo_texto_normalizacion">
+<h2>Normalización de Bases de Datos</h2>
+<p>El proceso consiste en aplicar una serie de reglas, denominadas Formas Normales, a las tablas obtenidas en el modelo Entidad-Relación. Existen 5 formas normales, pero las primeras 3 son suficientes para normalizar la mayoría de las BD.</p>
+
+<h3>¿Para qué se utiliza?</h2>
+<h4>La Normalización se utiliza para:</h3>
+<li>Evitar la redundancia de los datos (datos repetidos en diferentes tablas)</li>
+<li>Proteger la integridad de los datos (si  x  depende de  y,  no debe ser posible eliminar  y)</li>
+<li>Cada tabla debe tener un nombre único</li>
+<li>No pueden existir 2 filas iguales (no se deben permitir los duplicados)</li>
+<li>Todos los datos en una misma columna deben ser del mismo tipo, etc.</li>
+
+<iframe width="460" height="215" src="https://www.youtube.com/embed/QUWrKd9vK28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</div>
+
+</article>
+
+</article>
+  </section>
