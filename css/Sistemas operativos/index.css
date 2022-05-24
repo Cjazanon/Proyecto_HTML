@@ -9,6 +9,7 @@ text-decoration: none;
   height: auto;
   background-position: center;
   background-size: cover;
+    background-attachment: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;

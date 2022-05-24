@@ -6,10 +6,315 @@ text-decoration: none;
 }
 .section-index{
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-position: center;
   background-size: cover;
+    background-attachment: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.Informacion{
+  width: 95%;
+  height: 100%;
+margin: auto;
+margin-top: 12%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255,255,255,.9);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  align-items: center;
+}
+.Introduccion{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.Titulo{
+  width: 50%;
+  height: 100%;
+  margin-top: 2%;
+  flex-direction: column;
+}
+.Titulo h1{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: center;
+
+
+}
+.Titulo h2{
+  font-family: 'Prata', serif;
+    font-size: 20px;
+    color: #363033;
+    text-align: center;
+    margin-top: 2%;
+
+}
+.Titulo p{
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 20px;
+  height: auto;
+
+}
+.Cuadro_imagen_introduccion{
+  width: 50%;
+  height: 100%;
+
+}
+.Imagen_introduccion{
+  width: 100%;
+  height: 296px;
+  margin: auto;
+}
+.Imagen_introduccion img{
+  width: 100%;
+  height: 100%;
+}
+.Objetivos{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.Titulo_texto_objetivos{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_objetivos h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_objetivos li{
+  text-decoration: none;
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+.Funciones{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.Titulo_texto_funciones{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_funciones2{
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.Titulo_texto_funciones h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_funciones li{
+  text-decoration: none;
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+.Titulo_texto_funciones2 h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_funciones2 li{
+  text-decoration: none;
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+.Clasificacion{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.Titulo_texto_clasificion{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Titulo_texto_clasificion h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: left;
+}
+.Titulo_texto_clasificion li{
+  text-decoration: none;
+  list-style-position: inside;
+  list-style-type:  circle;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+}
+.Tecnologia_titulo{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.Titulo_tec h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: center;
+}
+.Difusion{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.Difusion_titulo_texto{
+width: 50%;
+height: auto;
+display: flex;
+flex-direction: column;
+
+  margin-left: 10PX;
+}
+.Difusion_titulo_texto h2{
+  font-family: 'Prata', serif;
+    font-size: 18px;
+    color: #363033;
+    text-align: center;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.Difusion_titulo_texto p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 15px;
+
+}
+.Cuadro_imagen{
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  margin-top: 10PX;
+}
+.Cuadro_imagen img{
+  width: 100%;
+  height: 100%;
+}
+.Escala{
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.Titulo_escala{
+  width: 100%;
+  height: auto;
+}
+.Titulo_escala h2{
+  font-family: 'Prata', serif;
+    font-size: 24px;
+    color: #363033;
+    text-align: center;
+}
+.Caja_redes{
+  width: 80%;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+}
+.A{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+
+}
+.B{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+margin-top: 10px;
+}
+.Cuadro_titulo_logo{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: rgba(31, 31, 31, .2);
+  backdrop-filter: blur(8px);
+  box-shadow: 1px 1px 5px 1px rgba(29,116,167, 0.2);
+}
+.Titulo_texto{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.Titulo_texto h3{
+  font-family: 'Prata', serif;
+    font-size: 20px;
+    color: #363033;
+    text-align: center;
+}
+.Titulo_texto p{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #363033;
+  font-size: 15px;
+}
+.Icono{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+
+}
+.Icono img{
+  width: 100%;
+  height: 100%;
 }

@@ -9,12 +9,13 @@ text-decoration: none;
   height: auto;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .Informacion{
-  width: 90%;
+  width: 95%;
   height: 100%;
 margin: auto;
 margin-top: 12%;
